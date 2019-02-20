@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        .head li{
+            list-style: none;
+            margin:5px;
+            padding-left:10px;
+            background-color: rgb(38, 47, 56);
+            color:rgb(68, 77 ,86);
+            }
+        .head li:hover{
+            color:rgb(159, 167, 169);
+            background-color: rgb(48, 58, 69);
+        }
+        .head{
+            margin:auto;
+            width: 90%;
+            height:200px;
+            display:flex;
+            align-items: center;
+            justify-content:space-between;
+        }
+        .content{
+            width:90%;
+            margin:20px auto 80px;
+            padding:20px;
+            display:flex;
+
+        }
+        .passage{
+            padding:20px;
+            
+        }
+        .icon{
+            float:left;width:60px;height: 60px;
+            text-align: center;
+        }
+        .icon1{
+            width:60px;
+            height:40px;
+            background-color: rgb(48, 58, 69);
+            color:rgb(159, 167, 169);
+            display: table-cell;
+            vertical-align: middle;
+            font-size:20px;
+        }
+        .icon2{
+            height:20px;
+            background-color:rgb(34, 41, 51);
+            color:rgb(133, 131, 131);
+        }
+        .main-title{
+            font-size:30px;
+            color:rgb(34, 41, 51);
+            margin-left: 80px;
+        }
+        .subhead{
+            font-size:16px;
+            color:wheat;
+            margin-left: 80px;
+        }
+        .article{
+            color:rgb(34, 41, 51); 
+        }
+        .footer{
+            text-align: end;
+        }
+        .right-nav{
+            color:rgb(159, 167, 169);
+            top:20px;
+        }
+        .right-nav li,.right-nav h2 {border-bottom: rgb(159, 167, 169) 1px solid;}
+        .right-nav ul{list-style-position: inside;padding: 0px 20px 0px;}
+        .right-nav h2{padding-bottom: 8px;}
+        .right-nav li{position: relative;}
+        li div{text-align: right;right:4px;top:0px;position: absolute;font-style: italic;}
+    </style>
+    <title>Blog template</title>
+</head>
+<body style="background: rgb(48, 58, 69)">
+<div style="background-color:rgb(34, 41, 51);">
+    <div class = "head">
+        <span class="head-cell" style="color:rgb(159, 167, 169);flex-grow: 2;"><h1>Blog template</h1></span>
+        <span class="head-cell" style="color:rgb(133, 131, 131);flex-grow:1">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Command</li>
+                <li>Context</li>
+            </ul>
+        </span>
+    </div>
+</div>
+<div class="content">
+    <span class="content-cell" style="flex-grow: 2;background-color: rgb(234, 238, 223);margin:-20px 40px 100px -10px;border-radius:10px;box-shadow:5px 5px 20px #888;">
+        <div class="passage">
+            <div class="headline">
+                <div class="icon"><div class="icon1">4</div><div class="icon2">Jan</div></div>
+                <div class="main-title">Will the new Macbook be ultre thin?</div></hr>
+                <div class="subhead">A floating element is one where the computed value of float is not none.</div>
+            </div>
+            <div class="article">
+                <p>For a beginner-level introduction to the syntax of CSS selectors, please see this tutorial. Be aware that any CSS syntax error in
+                a rule definition invalidates the entire rule. Invalid rules are ignored by the browser. Note that CSS rule definitions are entirely (ASCII) 
+                text-based, whereas DOM-CSS / CSSOM (the rule management system) is object-based.
+                </p>
+                <div style="font-size:40px;border-top: black 2px solid;border-bottom:black 2px solid;width:400px;height:200px;float: right;margin:0 auto;display: flex;align-items: center;">
+                    <i>Lorem ipsum dolor sit amet,consectetur adipisicing elit</i>
+                </div>
+                <p>
+                Use this CSS reference to browse an alphabetical index of all the standard CSS properties, pseudo-classes, pseudo-elements, data types, and at-rules.
+                You can also browse a list of all the CSS selectors organized by type and a list of key CSS concepts. Also included is a brief DOM-CSS / CSSOM reference.
+                </p>
+                
+                <p>
+                Use this CSS reference to browse an alphabetical index of all the standard CSS properties, pseudo-classes, pseudo-elements, data types, and at-rules.
+                You can also browse a list of all the CSS selectors organized by type and a list of key CSS concepts. Also included is a brief DOM-CSS / CSSOM reference.
+                </p>
+                <p>
+                The order within each animation definition is also important for distinguishing animation-name values from other keywords. When parsed,
+                 keywords that are valid for properties other than animation-name, and whose values were not found earlier in the shorthand, must be accepted 
+                 for those properties rather than for animation-name. Furthermore, when serialized, default values of other properties must be output in at least 
+                 the cases necessary to distinguish an animation-name that could be a value of another property, and may be output in additional cases.
+                </p>
+                <div class="footer"><i><u>Continue reading </u>></i></div><br/>
+                <hr/>
+            </div>
+        </div>
+
+        <div class="passage">
+            <div class="headline">
+                <div class="icon"><div class="icon1">3</div><div class="icon2">Jan</div></div>
+                <div class="main-title">Will the new Macbook be ultre thin?</div></hr>
+                <div class="subhead">A floating element is one where the computed value of float is not none.</div>
+            </div>
+            <div class="article">
+                <p>For a beginner-level introduction to the syntax of CSS selectors, please see this tutorial. Be aware that any CSS syntax error in
+                a rule definition invalidates the entire rule. Invalid rules are ignored by the browser. Note that CSS rule definitions are entirely (ASCII) 
+                text-based, whereas DOM-CSS / CSSOM (the rule management system) is object-based.
+                </p>
+                <p>
+                Use this CSS reference to browse an alphabetical index of all the standard CSS properties, pseudo-classes, pseudo-elements, data types, and at-rules.
+                You can also browse a list of all the CSS selectors organized by type and a list of key CSS concepts. Also included is a brief DOM-CSS / CSSOM reference.
+                </p>
+                <p>
+                Use this CSS reference to browse an alphabetical index of all the standard CSS properties, pseudo-classes, pseudo-elements, data types, and at-rules.
+                You can also browse a list of all the CSS selectors organized by type and a list of key CSS concepts. Also included is a brief DOM-CSS / CSSOM reference.
+                </p>
+                <p>
+                The order within each animation definition is also important for distinguishing animation-name values from other keywords. When parsed,
+                 keywords that are valid for properties other than animation-name, and whose values were not found earlier in the shorthand, must be accepted 
+                 for those properties rather than for animation-name. Furthermore, when serialized, default values of other properties must be output in at least 
+                 the cases necessary to distinguish an animation-name that could be a value of another property, and may be output in additional cases.
+                </p>
+                <div class="footer"><i><u>Continue reading </u>></i></div><br/>
+                <hr/>
+            </div>
+        </div>
+        <div class="passage">
+            <div class="headline">
+                <div class="icon"><div class="icon1">2</div><div class="icon2">Jan</div></div>
+                <div class="main-title">Will the new Macbook be ultre thin?</div></hr>
+                <div class="subhead">A floating element is one where the computed value of float is not none.</div>
+            </div>
+            <div class="article">
+                <p>For a beginner-level introduction to the syntax of CSS selectors, please see this tutorial. Be aware that any CSS syntax error in
+                a rule definition invalidates the entire rule. Invalid rules are ignored by the browser. Note that CSS rule definitions are entirely (ASCII) 
+                text-based, whereas DOM-CSS / CSSOM (the rule management system) is object-based.
+                </p>
+                <p>
+                Use this CSS reference to browse an alphabetical index of all the standard CSS properties, pseudo-classes, pseudo-elements, data types, and at-rules.
+                You can also browse a list of all the CSS selectors organized by type and a list of key CSS concepts. Also included is a brief DOM-CSS / CSSOM reference.
+                </p>
+                
+                <p>
+                Use this CSS reference to browse an alphabetical index of all the standard CSS properties, pseudo-classes, pseudo-elements, data types, and at-rules.
+                You can also browse a list of all the CSS selectors organized by type and a list of key CSS concepts. Also included is a brief DOM-CSS / CSSOM reference.
+                </p>
+                <p>
+                The order within each animation definition is also important for distinguishing animation-name values from other keywords. When parsed,
+                 keywords that are valid for properties other than animation-name, and whose values were not found earlier in the shorthand, must be accepted 
+                 for those properties rather than for animation-name. Furthermore, when serialized, default values of other properties must be output in at least 
+                 the cases necessary to distinguish an animation-name that could be a value of another property, and may be output in additional cases.
+                </p>
+                <div class="footer"><i><u>Continue reading </u>></i></div><br/>
+                <hr/>
+            </div>   
+        </div>
+        <div style="background-color:  rgb(48, 58, 69);color:rgb(159, 167, 169);margin: auto;width: 300px;height:50px;display: flex;border-radius:2px;justify-content:space-between;align-items: center">
+            <span style="margin-left: 10px;border-bottom:rgb(159, 167, 169) 1px solid;">< Front page</span>
+            <span style="margin-right:10px;border-bottom:rgb(159, 167, 169) 1px solid;">Next page ></span>
+        </div>
+    </span>
+    <span class="content-cell" style="flex-grow: 1;margin-top: -20px;">
+        <div class="right-nav" style="border-bottom:solid 1px rgb(159, 167, 169);">
+            <h2>About me</h2>
+            <img src="http://pic.cr173.com/up/2016-5/2016527928167032.png" style="float: left;width: 100px;height: 100px;">
+            <p>The order within each animation definition is also important for distinguishing animation-name values from other keywords. When parsed,
+                keywords that are valid for properties other than animation-name.</p>
+        </div>
+        <div class="right-nav">
+            <h2>Subscribe</h2>
+            <ul style="list-style-type:square;">
+                <li>sdad asdsad</li>
+                <li>sadsa jljdgijpo</li>
+            </ul>
+        </div>
+        <div class="right-nav">
+            <h2>Categories</h2>
+            <ul>
+                <li>Cklklk<div>12 article</div></li>
+                <li>Frame<div>2 article</div></li>
+                <li>Mo<div>5 article</div></li>
+            </ul>
+        </div>
+    </span>
+</div>
+</body>
+</html>
